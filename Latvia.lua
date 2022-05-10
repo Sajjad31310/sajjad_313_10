@@ -3556,8 +3556,8 @@ end
 if ChatType == 'sp' or ChatType == 'gp'  then
 if text == 'بوت' or text == 'بوتت' then 
 NameBot = (DevAbs:get(Latvia..'Abs:NameBot') or 'سيزر')
-local LatviaTEAM = {' كول حبيبي ؟ اني '..NameBot..' ',' وياك  '..NameBot..' ',' اسمي الجميل '..NameBot..' ', 'ها عمري', 'بعد روح '..NameBot..' ', 'تاج راس '..NameBot..' ','بس اكمل اكل جوعان', 'بعد روح '..NameBot..' '
-,'ها يحلو','اسمعك بس لتصيح', 'وياك البطل'..NameBot..' ','يعني حرام اشوف راحه من وراكم','ليش عصبي؟'}
+local LatviaTEAM = {' كول حبيبي ؟ اني '..NameBot..' ',' وياك  '..NameBot..' ',' اسمي الجميل '..NameBot..' ', ' ها عمري', 'بعد روح '..NameBot..' ', ' تاج راس '..NameBot..' ',' بس اكمل اكل جوعان', 'بعد روح '..NameBot..' '
+,' ها يحلو','اسمعك بس لتصيح', 'وياك البطل'..NameBot..' ','يعني حرام اشوف راحه من وراكم','ليش عصبي؟'}
 Dev_Abs(msg.chat_id_, msg.id_, 1, LatviaTEAM[math.random(#LatviaTEAM)] , 1, 'html') 
 return false
 end
